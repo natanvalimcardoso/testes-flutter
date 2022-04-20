@@ -9,4 +9,12 @@ void main() {
       expect(person.getIMC(), 22.34351559258195);
     },
   );
+
+  test(
+    'Deve disparar um erro se weight for menor que 0',
+    () {
+      var person = PersonModel(weight: 70, height: 1.77);
+      final result = person.getIMC();
+    },
+  );
 }
