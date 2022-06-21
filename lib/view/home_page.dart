@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../controller/imc_controler.dart';
 
-
+////ready
 class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
 
